@@ -1,10 +1,9 @@
 package com.example.mysqlproject;
 
 public class DbStrings {
-    static final String DATABASE_URL = "196.56.25.1:3306";
-    static final String DATABASE_NAME = "wampmysqld64.[nameoftable]";
-    static final String DATABASE_USERNAME = "root";
-    static final String DATABASE_PASSWORD = "my_pass";
-
+    static final String DATABASE_URL = "192.168.56.1:3306"; //ipv4 address on local comp
+    static final String DATABASE_NAME = "jiradb";
+    static final String DATABASE_USERNAME = "admin";
+    static final String DATABASE_PASSWORD = "password"; //new pass
 
 }
